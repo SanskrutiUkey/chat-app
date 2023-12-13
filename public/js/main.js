@@ -20,7 +20,7 @@ socket.on('roomUsers', ({ room, users }) => {
 
 //Message submit
 socket.on('message', message => {
-    console.log(message);
+    // console.log(message);
     outputMessage(message);
     chatMessages.scrollTop = chatMessages.scrollHeight
 
